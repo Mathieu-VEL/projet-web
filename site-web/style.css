@@ -1,0 +1,693 @@
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+    margin: auto; 
+    padding: 0;
+    max-width: 1200px;
+    font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    background-color: #E8DEDE;
+}
+
+
+
+
+/* Début de Div topbox*/
+.contenue-siteweb{
+    user-select: none;
+    background-color: #323861;
+    width: 1200px;
+    height: 470px;
+    color: #FFF;
+}
+
+
+.title{
+    user-select: none;
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+    left: 50px;
+}
+
+.accueil{
+    user-select: none;
+    font-size: 20px;
+    position: relative;
+    top: -30px;;
+    left: 100px;
+    text-decoration: none;
+}
+
+
+
+.propos{
+    user-select: none;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+    left: 150px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.projets{
+    user-select: none;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+    left: 200px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.contact{
+    user-select: none;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+    left: 250px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+
+/*mini cercle pour image tel*/
+.imgtel{
+    position: relative;
+    padding: 15px 23px;
+    top: -30px;
+    left: 350px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: #FFF;
+}
+
+.telicone{
+    user-select: none;
+    position: relative;
+    left: 312px;
+    bottom: 20px;
+}
+
+
+#telicone{
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+
+
+
+
+/*bordure num tel*/
+.numtel{
+    user-select: none;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+    left: 400px;
+    padding: 10px;
+    border: 2px solid #FFF ;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%  ;
+}
+
+
+
+/*Position d'avatar mini*/
+.avatar{
+    user-select: none;
+    position: relative;
+    top: 180px;
+    right: 670px;
+}
+
+/*taille d'avatar mini*/
+#avatar{
+    border-radius: 50%;
+    width: 90px;
+    height: 100px;
+}
+
+
+.boxentre{
+    user-select: none;
+    position: relative;
+    top: 140px;
+    right: 650px;
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+    padding: 20px 232px;
+    background-color: #FFF;
+}
+
+.entre{
+    user-select: none;
+    font-size: 30px;
+    position: relative;
+    top: 111px;
+    left: 350px;
+    color: black;
+    font-weight: bold;
+}
+
+.boxentre2{
+    user-select: none;
+    position: relative;
+    top: 240px;
+    right: 90px;
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+    padding: 20px 300px;
+    background-color: #FFF;
+}
+
+.entrep1{
+    user-select: none;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    top: 242px;
+    right: 579px;
+    color:  #14B789;
+}
+
+.img{
+    user-select: none;
+    position: relative;
+    top: 0px;
+    left: 850px;
+}
+
+#img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.links{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.midbox{
+    position: relative;
+    top: 200px;
+}
+
+#midboximg{
+    border-radius: 4%;
+    width: 550px;
+    height: 400px;
+}
+
+.midboxmonhistoire{
+    position: relative;
+    bottom: 206px;
+    left: 600px;
+    border-radius: 20px;
+    width:  600px;
+    height: 130px;
+    background-color: #14B789;
+}
+
+#monhistoire{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top:  -10px;
+    left: 80px;
+}
+
+
+.contenu-histoire{
+    position: relative;
+    bottom: 189px;
+    left: 600px;
+    width:  600px;
+    height: 250px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#histoire{
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+}
+
+.imghistoire{
+ position: absolute;
+ bottom: -2px;
+ left: 420px;
+}
+
+#imghistoire{
+    width: 125px;
+    height: 125px;
+}
+
+
+.boxmesprojets{
+    position: relative;
+    bottom: 100px;
+    left:   0px;
+    border-radius: 20px;
+    width:  554px;
+    height: 130px;
+    background-color: #14B789;
+}
+
+
+#mesprojets{
+    position: relative;
+    font-size: 50px;
+    color: white;
+    top: 40px;
+    left: 230px;
+}
+
+.imgmesprojets{
+    position: relative;
+    bottom: 95px;
+    right: 180px;
+}
+
+#imgmesprojets{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+
+
+.blockprojets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+
+.block1{
+position: relative;
+background-color: #FFF;
+width: 500px;
+height: 500px;
+border-radius: 10px;
+overflow: hidden;
+border: 1px solid #FFF;
+}
+
+
+
+
+.block2{
+    position: relative;
+    background-color: #FFF;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #FFF;
+}
+
+
+.imgblock1{
+    position: absolute;
+    top:  110px;
+    left: 50px;
+}
+
+#imgblock1{
+    border-radius: 10px;
+    height: 400px ;
+    width:  400px ;
+    rotate: 5deg;
+}
+
+
+.imgblock2{
+    position: absolute;
+    top:  110px;
+    left: 50px;
+}
+
+
+#imgblock2{
+    border-radius: 10px;
+    height: 400px ;
+    width:  400px ;
+    rotate: 5deg;
+}
+
+.siteweb{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 17px;
+    color: black;
+}
+
+.zoik{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.thewatch{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.photographie{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 17px;
+    color: black;
+}
+
+
+.botboxcontact{
+    position: relative;
+    top: 100px;
+    left: 646px;
+    border-radius: 20px;
+    width:  554px;
+    height: 130px;
+    background-color: #14B789;
+}
+
+
+.botcontact{
+    position: relative;
+    font-size: 50px;
+    color: white;
+    top: 40px;
+    left: 230px;
+}
+
+
+#imghandshake{
+    position: relative;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    bottom: 55px;
+    left: 50px;
+}
+
+
+.boxformulaire{
+    position: relative;
+    max-width: 500px;
+    top:  200px;
+    left: 650px;
+
+}
+
+
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#prenom{
+    border: none;
+    height: 30px;
+    
+}
+
+
+#prenom{
+    position: relative;
+    color: black;
+    width: 540px;
+}
+
+
+#mail{
+    border: none;
+    height: 30px; 
+    width: 540px;
+}
+
+.vosprojets{
+    color: black;
+    font-weight: 300;
+}
+
+
+#siteweb{
+    position: relative;
+    right: 5px;
+    color: black;
+}
+
+
+#ecommerce{
+    position: relative;
+    right: 5px;
+    color: black;
+}
+
+
+#seo{
+    position: relative;
+    right: 5px;
+    color: black;
+}
+
+span{
+    color: black;
+}
+
+
+#text{
+    border: none;
+    height: 50px; 
+    width: 540px;
+}
+
+.submit{
+    border: none;
+    height: 50px; 
+    width: 100px;
+    border-radius: 10px;
+    background-color: #14B789;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.boxinfo{
+    position: relative;
+    bottom: 200px;
+    height: 400px;
+    width: 570px;
+    background-color: #FFF;
+}
+
+
+
+.p1info{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.p2info{
+    position: relative;
+    top: 100px;
+    left: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.p3info{
+    position: relative;
+    top: 110px;
+    left: 40px;
+    color: black;
+    font-size: large;
+    max-width: 200px;
+}
+
+
+.infoapropos{
+    position: relative;
+    bottom: 52px;
+    left: 280px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    max-width: 200px;
+}
+
+.p1apropos{
+    position: relative;
+    bottom: 30px;
+    left: 280px;
+    color: black;
+    font-size: large;
+    max-width: 200px;
+}
+
+.infomail{
+    position: relative;
+    bottom: 10px;
+    left: 280px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    max-width: 100px;
+}
+
+
+.p1infomail{
+    position: relative;
+    bottom: 5px;
+    left: 280px;
+    color: black;
+    font-size: large;
+    max-width: 200px;
+}
+
+
+.infotel{
+    position: relative;
+    bottom: -20px;
+    left: 280px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    max-width: 200px;
+}
+
+
+.p1tel{
+    position: relative;
+    bottom: -20px;
+    left: 280px;
+    color: black;
+    font-size: large;
+    max-width: 200px;
+}
+
+.containerinfo{
+    position: relative;
+    top: 20px;
+}
+
+
+.copyright{
+    position: relative;
+    bottom: 150px;
+    color: black;
+    width: 1200px;
+    height: 50px;
+    background-color: #E8DEDE;
+    text-align: center;
+}
+
+
+
+.socialmedia{
+    width: 160px;
+    height: 10px;
+}
+
+
+
+
+/*hover pour les liens et autres*/
+.links:hover{
+    text-decoration: none;
+    user-select: none;
+    color: #14B789;
+    transition: all 0.3s;
+}
+
+.propos:hover{
+    user-select: none;
+    color: #14B789;
+    transition: all 0.3s;
+}
+
+.projets:hover{
+    user-select: none;
+    color: #14B789;
+    transition: all 0.3s;
+}
+
+.contact:hover{
+    user-select: none;
+    color: #14B789;
+    transition: all 0.3s;
+}
+
+.imgtel:hover{
+    user-select: none;
+}
+
+
+.numtel:hover{
+    user-select: none;
+    color: #14B789;
+    transition: all 0.3s;
+}
+
+.block1:hover{
+    border: 1px solid #14B789;
+    transition: all 0.3s;
+}
+
+.block2:hover{
+    border: 1px solid #14B789;
+    transition: all 0.3s;
+}
+
+
+
+
+
+
